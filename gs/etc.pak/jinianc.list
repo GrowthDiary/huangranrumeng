@@ -1,0 +1,48 @@
+#FORM2
+#xiancho.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙元奖励 : 1000
+
+[仙元奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "甜粽仙", "咸粽仙"})
+
+
+#[哮天犬]
+#name$: ({ 哮天犬, 哮天犬 })
+#rank$: 神兽
+#level: 1
+#life_effect: ({ 55, 55 })
+#mana_effect: ({ -40, -40 })
+#speed_effect: ({ 35, 35 })
+#phy_effect: ({ 100, 100 })
+#mag_effect: ({ -40, -40 })
+
+
+[甜粽仙]
+name$: ({ 甜粽仙, 甜粽仙 })
+rank$: 神兽
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 神圣之光, 1, 漫天血舞, 1, 乾坤罩, 1})
+
+[咸粽仙]
+name$: ({ 咸粽仙, 咸粽仙 })
+rank$: 神兽
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 神圣之光, 1, 漫天血舞, 1, 乾坤罩, 1})

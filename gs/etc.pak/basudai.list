@@ -1,0 +1,31 @@
+#FORM2
+#shisuxx.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+奖励 : 1000
+
+[奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "巨骨刺", "吉祥蛙", "太极熊"})
+
+[巨骨刺]
+name$: ({ 巨骨刺, 巨骨刺 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#八速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[吉祥蛙]
+name$: ({ 吉祥蛙, 吉祥蛙 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#八速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[太极熊]
+name$: ({ 太极熊, 太极熊 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#八速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"

@@ -1,0 +1,38 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+相5首饰 : 1
+
+
+[相5首饰]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "玉佩"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "项链"})
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "手镯"})
+
+
+[玉佩]
+name      : 游火灵焰
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/wiz", 30,"prop/dex", 30, "prop2/wiz", 30, "prop2/dex", 30,"prop/all_skill", 10 })
+
+[项链]
+name      : 千彩流光
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/wiz", 30,"prop/dex", 30, "prop2/wiz", 30, "prop2/dex", 30,"prop/all_skill", 10 })
+
+[手镯]
+name      : 岚金火链
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/wiz", 30,"prop/dex", 30, "prop2/wiz", 30, "prop2/dex", 30,"prop/all_skill", 10 })

@@ -1,0 +1,22 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+#name$: 特等奖
+#name$: 一等奖
+#name$: 二等奖
+#name$: 三等奖
+name$: 末等奖
+
+[特等奖]
+混元金斗 : 1
+
+
+[混元金斗]
+name      : 混元金斗
+min_level : 13
+max_level : 13
+attribs      : ({"item_polar", 5, "extra_skill", "tianyan", "extra_skill_level", 13, "upgraded", 1, "icon", 1436, "nimbus", 24200})
+

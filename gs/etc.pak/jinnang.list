@@ -1,0 +1,11 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 末等奖
+
+
+[末等奖]
+随机功能卷轴 : 1000

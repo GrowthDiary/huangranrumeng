@@ -1,0 +1,350 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+
+十二生肖 : 12
+十二花仙 : 12
+三祥五福 : 8
+龙生九子 : 9
+其他 : 2
+
+[十二生肖]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "伶俐鼠","笨笨牛","威威虎","跳跳兔","酷酷龙","花花蛇","溜溜马","咩咩羊","帅帅猴","蛋蛋鸡","乖乖狗","招财猪"})
+
+[十二花仙]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "昙花","茉莉","月季","玉兰","君子幽兰","桂花","花玉簪","莲花","月见草","牡丹花","豆蔻","禾雀"})
+
+[三祥五福]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "重明","药兽","龟宝","乘黄","风狸","白泽","方相","当康"})
+
+[龙生九子]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "貔貅","狴犴","鳌鱼","霸下","睚眦","囚牛","蒲牢","饕餮","嘲风"})
+
+[其他]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "飞廉","英招"})
+
+
+[伶俐鼠]
+name$: ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[笨笨牛]
+name$: ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[威威虎]
+name$: ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 90, 90 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[跳跳兔]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[酷酷龙]
+name$: ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[花花蛇]
+name$: ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[溜溜马]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[咩咩羊]
+name$: ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[帅帅猴]
+name$: ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 55, 55 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[蛋蛋鸡]
+name$: ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 1
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[乖乖狗]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[招财猪]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 1
+life_effect: ({ 80, 80 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[昙花]
+name$: ({ 昙花, 昙花 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[茉莉]
+name$: ({ 茉莉, 茉莉 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[月季]
+name$: ({ 月季, 月季 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[玉兰]
+name$: ({ 玉兰, 玉兰 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[君子幽兰]
+name$: ({ 君子幽兰, 君子幽兰 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[桂花]
+name$: ({ 桂花, 桂花 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[花玉簪]
+name$: ({ 花玉簪, 花玉簪 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[莲花]
+name$: ({ 莲花, 莲花 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[月见草]
+name$: ({ 月见草, 月见草 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[牡丹花]
+name$: ({ 牡丹花, 牡丹花 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[豆蔻]
+name$: ({ 豆蔻, 豆蔻 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[禾雀]
+name$: ({ 禾雀, 禾雀 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[重明]
+name$: ({ 重明, 重明 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[药兽]
+name$: ({ 药兽, 药兽 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[龟宝]
+name$: ({ 龟宝, 龟宝 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[乘黄]
+name$: ({ 乘黄, 乘黄 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[风狸]
+name$: ({ 风狸, 风狸 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[白泽]
+name$: ({ 白泽, 白泽 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[方相]
+name$: ({ 方相, 方相 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[当康]
+name$: ({ 当康, 当康 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[貔貅]
+name$: ({ 貔貅, 貔貅 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[狴犴]
+name$: ({ 狴犴, 狴犴 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+      
+[鳌鱼]
+name$: ({ 鳌鱼, 鳌鱼 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[睚眦 ]
+name$: ({ 睚眦 , 睚眦  })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[霸下]
+name$: ({ 霸下, 霸下 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[囚牛]
+name$: ({ 囚牛, 囚牛 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[蒲牢]
+name$: ({ 蒲牢, 蒲牢 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[饕餮]
+name$: ({ 饕餮, 饕餮 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[嘲风]
+name$: ({ 嘲风, 嘲风 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[飞廉]
+name$: ({ 飞廉, 飞廉 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[英招]
+name$: ({ 英招, 英招 })
+rank$: 变异
+level: 1
+channel_msg : "#$PLAYER#n打开#变宠#n时得到了$EX_PET的奖励！真是鸿运当头啊！"

@@ -1,0 +1,79 @@
+#FORM2
+#shisuxx.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+奖励 : 1000
+
+[奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "岳麓剑", "古鹿", "云豹", "北极熊", "翡翠葫芦", "五彩神牛", "慕炎狮", "雅尘狐", "玉蹄", "玉蝶鱼", "盘古猿"})
+
+[岳麓剑]
+name$: ({ 岳麓剑, 岳麓剑 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[古鹿]
+name$: ({ 古鹿, 古鹿 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[云豹]
+name$: ({ 云豹, 云豹 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[北极熊]
+name$: ({ 北极熊, 北极熊 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[翡翠葫芦]
+name$: ({ 翡翠葫芦, 翡翠葫芦 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[五彩神牛]
+name$: ({ 五彩神牛, 五彩神牛 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[慕炎狮]
+name$: ({ 慕炎狮, 慕炎狮 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[雅尘狐]
+name$: ({ 雅尘狐, 雅尘狐 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[玉蹄]
+name$: ({ 玉蹄, 玉蹄 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[玉蝶鱼]
+name$: ({ 玉蝶鱼, 玉蝶鱼 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[盘古猿]
+name$: ({ 盘古猿, 盘古猿 })
+rank$: 御灵
+level: 1
+channel_msg : "#$PLAYER#n打开#六速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"

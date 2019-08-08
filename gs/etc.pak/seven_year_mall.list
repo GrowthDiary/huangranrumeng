@@ -1,0 +1,674 @@
+#FORM2
+
+[time_info]
+start_time      : "2019-01-01-00:00"
+end_time        : "2030-12-31-23:59"
+test_start_time : "2019-01-01-00:00"
+test_end_time   : "2030-12-31-23:59"
+
+[broadcast_setting]
+broadcast_list : ({ "dur_task" })
+
+[dur_task]
+broadcast_start : "start_time(64800)"
+interval        : 1200
+cycle           : 86400
+broadcast_end   : "start_time(79100)"
+final_end_time  : "end_time"
+message         : "传说中的#R梦回当年专卖店#n在周年商城上架了，大家赶紧去#P活动大使#P处兑换吧！出售时间为#R00:00-24:00#n，欲购从速。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[001]
+name : 超级夜叉王卡
+type : "item"
+card_num : 20
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[002]
+name : 超级罗刹王卡
+type : "item"
+card_num : 20
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[003]
+name : 超级白骨精卡
+type : "item"
+card_num : 20
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[004]
+name : 超级孔雀妖姬卡
+type : "item"
+card_num : 20
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[005]
+name : 超级阎摩罗王卡
+type : "item"
+card_num : 20
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[011]
+name : 超级震魃卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[012]
+name : 超级混沌卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[013]
+name : 超级降魔卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[014]
+name : 超级赤天卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[015]
+name : 超级笛舞卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[016]
+name : 超级夫诸卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[017]
+name : 超级大力神猪卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[018]
+name : 超级齐天大圣卡
+type : "item"
+card_num : 10
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[019]
+name : 超级昆仑卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[020]
+name : 超级逐鹿卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[021]
+name : 超级无名卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[022]
+name : 超级巨力卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[023]
+name : 超级斗战胜佛卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[024]
+name : 超级苍穹卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[025]
+name : 超级净瓶卡
+type : "item"
+card_num : 30
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[026]
+name : 潜金散
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[027]
+name : 神木丸
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[028]
+name : 柔水丹
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[029]
+name : 烈火散
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[030]
+name : 三土丸
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[031]
+name : 九转仙灵露
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[032]
+name : 三清丸
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[033]
+name : 宝花玉露丸
+type : "item"
+card_num : 1
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[034]
+name : 星图石头
+type : "item"
+card_num : 5
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[035]
+name : 道具套餐卡
+type : "item"
+card_num : 28
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[036]
+name : 高级道具套餐卡
+type : "item"
+card_num : 80
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[037]
+name : 五级镶嵌令
+type : "item"
+card_num : 32
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[038]
+name : 六级镶嵌令
+type : "item"
+card_num : 64
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[039]
+name : 七级镶嵌令
+type : "item"
+card_num : 128
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[040]
+name : 八级镶嵌令
+type : "item"
+card_num : 256
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[041]
+name : 九级镶嵌令
+type : "item"
+card_num : 512
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[042]
+name : 盛世鲜花雨
+type : "item"
+card_num : 50
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[043]
+name : 龙腾盛世礼花
+type : "item"
+card_num : 300
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[044]
+name : 呼风唤雨符
+type : "item"
+card_num : 50
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[045]
+name : 限时纪念宠物
+type : "item"
+card_num : 2800
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[046]
+name : 六速
+type : "item"
+card_num : 328
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[047]
+name : 绝版五速龙豹
+type : "item"
+card_num : 100
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[048]
+name : 喇叭
+type : "item"
+card_num : 5
+give_num : 1
+free_bag : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[067]
+name : 神龙罩秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[068]
+name : 如意圈秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[069]
+name : 乾坤罩秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[070]
+name : 漫天血舞秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[071]
+name : 游说之舌秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[072]
+name : 舍命一击秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[073]
+name : 神圣之光秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[074]
+name : 死亡缠绵秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[075]
+name : 翻转乾坤秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[076]
+name : 天生神力秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[077]
+name : 拔苗助长秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[078]
+name : 防微杜渐秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[079]
+name : 十万火急秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[080]
+name : 鞭长莫及秘笈
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[081]
+name : 灵魂融合石
+card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+

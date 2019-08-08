@@ -1,0 +1,136 @@
+#FORM2
+#shisuxx.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+奖励 : 1000
+
+[奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九尾仙狐", "北斗天蓬", "疾风蚀日", "雪山飞狐", "碳元天蓬", "流火蚀日","紫色仙狐", "黑色魔狐", "黑暗魔王葫芦", "鲁道夫-蓝"})
+
+[九尾仙狐]
+name$: ({ 九尾仙狐, 九尾仙狐 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[北斗天蓬]
+name$: ({ 北斗天蓬, 北斗天蓬 })
+rank$: 御灵
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[疾风蚀日]
+name$: ({ 疾风蚀日, 疾风蚀日 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[流火蚀日]
+name$: ({ 流火蚀日, 流火蚀日 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[雪山飞狐]
+name$: ({ 雪山飞狐, 雪山飞狐 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[碳元天蓬]
+name$: ({ 碳元天蓬, 碳元天蓬 })
+rank$: 御灵
+level: 1
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 45, 45 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[流火蚀日]
+name$: ({ 流火蚀日, 流火蚀日 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+
+[紫色仙狐]
+name$: ({ 紫色仙狐, 紫色仙狐 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[黑色魔狐]
+name$: ({ 黑色魔狐, 黑色魔狐 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[黑暗魔王葫芦]
+name$: ({ 黑暗魔王葫芦, 黑暗魔王葫芦 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
+
+[鲁道夫-蓝]
+name$: ({ 鲁道夫-蓝, 鲁道夫-蓝 })
+rank$: 御灵
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 50, 50 })
+channel_msg : "#$PLAYER#n打开#十速#n时得到了$EX_PET的奖励！真是鸿运当头啊！"
