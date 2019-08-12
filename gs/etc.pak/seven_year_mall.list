@@ -327,10 +327,21 @@ sell_end : 24
 show_start : 0
 show_end : 24
 
+#[034]
+#name : 星图石头
+#type : "item"
+#card_num : 5
+#give_num : 1
+#free_bag : 1
+#sell_start : 0
+#sell_end : 24
+#show_start : 0
+#show_end : 24
+
 [034]
-name : 星图石头
+name : 天外神石
 type : "item"
-card_num : 5
+card_num : 500
 give_num : 1
 free_bag : 1
 sell_start : 0
@@ -663,6 +674,18 @@ show_end : 24
 [081]
 name : 灵魂融合石
 card_num : 1
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 0
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[082]
+name : 豪华周年卡包
+card_num : 999
 give_num : 1
 free_bag : 1
 type : "item"

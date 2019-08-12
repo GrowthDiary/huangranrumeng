@@ -11,7 +11,28 @@ name$: ÌØµÈ½±
 ÏÉÔª½±Àø : 1000
 
 [ÏÉÔª½±Àø]
-bonus$:  ({ 0, 0, 100, "³èÎï", 1, 1, "ÌğôÕÏÉ", "ÏÌôÕÏÉ"})
+bonus$:  ({ 0, 0, 100, "³èÎï", 1, 1, "±ÈÒíÄñ", "Ğ¡±ÈÒíÄñ"})
+
+
+[±ÈÒíÄñ]
+name$: ({ ±ÈÒíÄñ, ±ÈÒíÄñ })
+rank$: ±äÒì
+level: 1
+life_effect: ({ 50, 50 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+
+[Ğ¡±ÈÒíÄñ]
+name$: ({ Ğ¡±ÈÒíÄñ, Ğ¡±ÈÒíÄñ })
+rank$: ±¦±¦
+level: 1
+life_effect: ({ 60, 60 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
 
 
 #[ÏøÌìÈ®]
@@ -25,24 +46,25 @@ bonus$:  ({ 0, 0, 100, "³èÎï", 1, 1, "ÌğôÕÏÉ", "ÏÌôÕÏÉ"})
 #mag_effect: ({ -40, -40 })
 
 
-[ÌğôÕÏÉ]
-name$: ({ ÌğôÕÏÉ, ÌğôÕÏÉ })
-rank$: ÉñÊŞ
-level: 1
-life_effect: ({ 80, 80 })
-mana_effect: ({ 20, 20 })
-speed_effect: ({ 30, 30 })
-phy_effect: ({ -50, -50 })
-mag_effect: ({ 30, 30 })
-special_skill$: ({ 3, ÉñÊ¥Ö®¹â, 1, ÂşÌìÑªÎè, 1, Ç¬À¤ÕÖ, 1})
-
-[ÏÌôÕÏÉ]
-name$: ({ ÏÌôÕÏÉ, ÏÌôÕÏÉ })
-rank$: ÉñÊŞ
-level: 1
-life_effect: ({ 80, 80 })
-mana_effect: ({ 20, 20 })
-speed_effect: ({ 30, 30 })
-phy_effect: ({ -50, -50 })
-mag_effect: ({ 30, 30 })
-special_skill$: ({ 3, ÉñÊ¥Ö®¹â, 1, ÂşÌìÑªÎè, 1, Ç¬À¤ÕÖ, 1})
+#
+#[ÌğôÕÏÉ]
+#name$: ({ ÌğôÕÏÉ, ÌğôÕÏÉ })
+#rank$: ÉñÊŞ
+#level: 1
+#life_effect: ({ 80, 80 })
+#mana_effect: ({ 20, 20 })
+#speed_effect: ({ 30, 30 })
+#phy_effect: ({ -50, -50 })
+#mag_effect: ({ 30, 30 })
+#special_skill$: ({ 3, ÉñÊ¥Ö®¹â, 1, ÂşÌìÑªÎè, 1, Ç¬À¤ÕÖ, 1})
+#
+#[ÏÌôÕÏÉ]
+#name$: ({ ÏÌôÕÏÉ, ÏÌôÕÏÉ })
+#rank$: ÉñÊŞ
+#level: 1
+#life_effect: ({ 80, 80 })
+#mana_effect: ({ 20, 20 })
+#speed_effect: ({ 30, 30 })
+#phy_effect: ({ -50, -50 })
+#mag_effect: ({ 30, 30 })
+#special_skill$: ({ 3, ÉñÊ¥Ö®¹â, 1, ÂşÌìÑªÎè, 1, Ç¬À¤ÕÖ, 1})

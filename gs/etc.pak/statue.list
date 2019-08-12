@@ -49,6 +49,7 @@ map_name$ : "弑神殿"
 map_name$ : "灭魔堂"
 map_name$ : "太极圣境"
 map_name$ : "玉清山巅"
+map_name$ : "天墉城"
 
 [揽仙镇外]
 min_level:1
@@ -331,3 +332,9 @@ min_level : 148
 max_level : 169
 level : 158
 coordinate:({ 111, 113 })
+
+[天墉城]
+min_level : 130
+max_level : 139
+level : 130
+coordinate:({ 333, 238 })

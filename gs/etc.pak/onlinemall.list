@@ -2448,7 +2448,7 @@ detail_info : 1
 [H00000029]
 name : "十年一梦套装·女"
 for_sale : 1
-coin: 6888
+coin: 500000
 coin_type : 2
 recommend : 时装
 limit_day : 30

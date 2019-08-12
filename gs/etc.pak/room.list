@@ -262,10 +262,9 @@ npc$    : ({ "THIS_PLACE/huanjingsanren.c", 403, 137, SOUTHEAST, 890, 幻境散人 }
 npc$    : ({ "THIS_PLACE/qingmu-daoren", 114, 232, SOUTHWEST, 740, 青木道人 })
 npc$    : ({ "THIS_PLACE/baibangmang.c", 309, 255, SOUTHEAST, 110, 白邦芒 })
 npc$    : ({ "THIS_PLACE/miaoshou-daoren.c", 160, 67, SOUTHEAST, 635, 妙手道人 })
-#npc$    : ({ "THIS_PLACE/beidouxingshi.c", 150, 22,  SOUTHEAST, 570, 北斗星使 })
-npc$    : ({ "THIS_PLACE/beidoufenshen", 150, 22,  SOUTHEAST, 570, 北斗星使分身 })
-#npc$    : ({ "THIS_PLACE/qiufan3",         244,  197,  SOUTHEAST, 330, 囚犯3 })
+npc$    : ({ "THIS_PLACE/beidoufenshen", 150, 22,  SOUTHEAST, 0, 北斗星使分身 })
 #npc$    : ({ "THIS_PLACE/kongkong-daoren.c", 192, 260, SOUTHWEST, 31744, 空空道人 })
+npc$    : ({ "THIS_PLACE/beidouxingshi.c", 150, 22,  SOUTHEAST, 570, 北斗星使 })
 npc$    : ({ "THIS_PLACE/wuji-sanren", 340, 159, SOUTHEAST, 610, 无极散人 })
 npc$    : ({ "THIS_PLACE/recommend", 241, 238, SOUTHWEST, 625, 问道引路人 })
 npc$    : ({ "THIS_PLACE/shengxiao-shizhe", 88, 99, SOUTHEAST, 810, 生肖使者 })
@@ -3655,7 +3654,7 @@ room_limit : "ROOM_BIG_MAP | ROOM_NO_CHANGE_UPGRADE"
 alias   : ({ "wawa-xunlianying" })
 map_id  : 40168
 source_id : 38001
-npc$    : ({ "THIS_PLACE/beidouxingshi.c", 67, 52,  SOUTHWEST, 570, 北斗星使 })
+npc$    : ({ "THIS_PLACE/beidouxingshi.c", 66, 53,  SOUTHWEST, 5700, 北斗星使1 })
 npc$    : ({ "misc/xunlianyingzhang", 62, 50, SOUTHWEST, 0, 训练营长 })
 npc$    : ({ "misc/liqixunlianshi1", 28, 44, SOUTHWEST, 0, 力气训练师1 })
 npc$    : ({ "misc/zhihuixunlianshi1", 14, 79, SOUTHWEST, 0, 智慧训练师1 })
